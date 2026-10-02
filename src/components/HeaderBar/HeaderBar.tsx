@@ -17,7 +17,7 @@ function HeaderBar() {
           </p>
         </div>
 
-        <CartButton />
+        <CartButton scale={180} />
       </div>
     </header>
   );

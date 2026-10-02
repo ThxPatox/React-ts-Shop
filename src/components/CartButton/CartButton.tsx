@@ -1,19 +1,28 @@
+import { ShoppingCart } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+
 import { useCart } from "../../context/CartContext";
 
 import "./CartButton.css";
 
-function CartButton() {
+interface CartButtonProps {
+  scale?: number;
+}
+
+function CartButton({ scale = 100 }: CartButtonProps) {
   const { totalItems } = useCart();
   const navigate = useNavigate();
 
   return (
     <button
       className="cart-button"
+      style={{
+        "--cart-scale": scale / 100,
+      } as React.CSSProperties}
       onClick={() => navigate("/cart")}
       aria-label={`Carrito con ${totalItems} productos`}
     >
-      <span className="cart-icon">🛒</span>
+      <ShoppingCart className="cart-icon" />
 
       {totalItems > 0 && (
         <span className="cart-counter">
