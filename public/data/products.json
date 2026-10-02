@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Teclado mecánico",
+    "description": "Teclado gaming RGB",
+    "price": 49990
+  },
+  {
+    "id": 2,
+    "name": "Mouse Gaming",
+    "description": "Mouse inalámbrico",
+    "price": 34990
+  },
+  {
+    "id": 3,
+    "name": "Monitor 144 Hz",
+    "description": "Monitor gaming 24 pulgadas",
+    "price": 179990
+  },
+  {
+    "id": 4,
+    "name": "Audífonos Gaming",
+    "description": "Audífonos 7.1 USB",
+    "price": 59990
+  },
+  {
+    "id": 5,
+    "name": "Silla Gaming",
+    "description": "Silla ergonómica con soporte lumbar",
+    "price": 129990
+  },
+    {
+        "id": 6,
+        "name": "Tarjeta de Video",
+        "description": "NVIDIA GeForce RTX 3080",
+        "price": 799990
+    },
+    {
+        "id": 7,
+        "name": "Procesador",
+        "description": "Intel Core i9-11900K",
+        "price": 499990
+    },
+    {
+        "id": 8,
+        "name": "Placa Base",
+        "description": "ASUS ROG Strix Z590-E",
+        "price": 299990
+    },
+    {
+        "id": 9,
+        "name": "Memoria RAM",
+        "description": "Corsair Vengeance RGB Pro 32GB",
+        "price": 199990
+    },
+    {
+        "id": 10,
+        "name": "Disco Duro SSD",
+        "description": "Samsung 970 EVO Plus 1TB",
+        "price": 149990
+    }
+]
